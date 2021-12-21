@@ -10,7 +10,7 @@
 - Developed first with the Mobile First methodology, then for desktop.
 - It contains a Header, Home, About, Practice Areas, Contact and Footer.
 
-### [Live Website](https://zealous-nobel-54c2c4.netlify.app/)
+### [Live Website](https://lawyer-website-onepage.netlify.app/)
 
 ## Used packages cdn
 
