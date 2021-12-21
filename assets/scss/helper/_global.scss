@@ -1,0 +1,61 @@
+//--GLOBAL--//
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: var(--header-height) 0 0 0;
+  font-family: var(--body-font) !important;
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color);
+  color: var(--text-color);
+  transition: 0.5s; // For animation dark mode
+}
+
+h1,
+h2,
+h3 {
+  font-weight: var(--font-semi-bold);
+  color: var(--title-color);
+  line-height: 1.5;
+}
+
+.section {
+  padding: 4.5rem 0 1rem;
+
+  &__title,
+  &__title-center {
+    font-size: var(--h2-font-size);
+    color: var(--first-color);
+    font-weight: var(--font-bold);
+    text-align: center;
+    margin-bottom: var(--m-2);
+    position: relative;
+  }
+}
+
+//--LAYOUT--//
+.container {
+  max-width: 1280px;
+  margin-left: var(--m-1-5);
+  margin-right: var(--m-1-5);
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.bg-1 {
+  background: var(--first-color-light);
+}
+
+.bg-2 {
+  background: var(--first-color-alt);
+}
