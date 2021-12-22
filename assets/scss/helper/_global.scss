@@ -3,6 +3,11 @@ html {
   scroll-behavior: smooth;
 }
 
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
 body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font) !important;

@@ -77,6 +77,10 @@
   .hero {
     position: relative;
     z-index: -1;
+
+    &__img {
+      height: auto;
+    }
   }
 
   .subhero {
